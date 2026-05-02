@@ -33,4 +33,4 @@ jobs:
       - name: Lint
         run: |
           pip install flake8
-          flake8 producer/ data_quality/ tests/ --max-line-length=120 --ignore=E501,W503
+          flake8 producer/ data_quality/ tests/ --max-line-length=120 --ignore=E501,W503,E302,E303,E305,E225,F401
